@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href=".assets/css/style.css">
 </head>
 <body>
     <header>
@@ -23,15 +24,18 @@
             <p class="direction">
                 Use these three properties to create a Flexbox row layout.
             </p>
-            <pre class="sample-code">
-                <code>
-                    .row {
-                        display: flex;
-                        flex-direction: row;
-                        flex-wrap: wrap;
-                    }
-                </code>
-            </pre>
+            <div class="sample-code liniear-gradient-background">
+                <pre>
+                    <code>
+                        .row {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                        }
+                    </code>
+                </pre>
+            </div>
+            
         </div>
 
         <div class="box">
@@ -41,14 +45,17 @@
             <p class="direction">
                 Use this to create a Flexbox column layout.
             </p>
-            <pre class="sample-code">
-                <code>
-                    .column {
-                        display: flex;
-                        flex-direction: column;
-                    } 
-                </code>
-            </pre>
+
+            <div class="sample-code liniear-gradient-background">
+                <pre>                
+                    <code>
+                        .column {
+                            display: flex;
+                            flex-direction: column;
+                        } 
+                    </code>
+                </pre>
+            </div>
         </div>
         <div class="box">
             <h2 class="box-title">
@@ -57,15 +64,17 @@
             <p class="direction">
                 Build a 12-column layout using CSS Grid.
             </p>
-            <pre class="sample-code">
-                <code>
-                    .grid {
-                        display: grid;
-                        width: 100%;
-                        grid-template-columns: repeat(12, lfr);
-                    } 
-                </code>
-            </pre>
+            <div class="sample-code liniear-gradient-background">
+                <pre>                
+                    <code>
+                        .grid {
+                            display: grid;
+                            width: 100%;
+                            grid-template-columns: repeat(12, lfr);
+                        } 
+                    </code>
+                </pre>
+            </div>
         </div>
         <div class="box">
             <h2 class="box-title">
@@ -74,16 +83,18 @@
             <p class="direction">
                 This will create a background linear gradient from top to bottom.
             </p>
-            <pre class="sample-code">
-                <code>
-                    .liniear-gradient-background { 
-                        background-image: linear-gradient(
-                            rgba(232, 102, 236, 0.3) 0%,
-                            rgba(232, 102, 236, 0.6) 100%
-                        );
-                    }
-                </code>
-            </pre>
+            <div class="sample-code liniear-gradient-background">
+                <pre>                
+                    <code>
+                        .liniear-gradient-background { 
+                            background-image: linear-gradient(
+                                rgba(232, 102, 236, 0.3) 0%,
+                                rgba(232, 102, 236, 0.6) 100%
+                            );
+                        }
+                    </code>
+                </pre>
+            </div>
         </div>
 
         <div class="box">
@@ -93,20 +104,21 @@
             <p class="direction">
                 Use these three properties to create a Flexbox row layout.
             </p>
-            <pre class="sample-code">
-
-                <code>
-                    .code-card .card-header {
-                        border-radius: 8px;
-                        transition: all 0.5s ease-in-out;
-                    }
-
-                    .code-card:hover, 
-                    .code-card:hover .card-header {
-                        box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
-                    }
-                </code>
-            </pre>
+            <div class="sample-code liniear-gradient-background">
+                <pre>                
+                    <code>
+                        .code-card .card-header {
+                            border-radius: 8px;
+                            transition: all 0.5s ease-in-out;
+                        }
+    
+                        .code-card:hover, 
+                        .code-card:hover .card-header {
+                            box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+                        }
+                    </code>
+                </pre>
+            </div>
                 
         </div>
         <div class="box">
@@ -116,16 +128,15 @@
             <p class="direction">
                 Use position properties ad negative margins to raise elements higher than their natural starting point.
             </p>
-            <div>
-                
-                    <pre class="sample-code">
-                        <code>
-                            .card-header {
-                                position: relative;
-                                margin-top: -20px;
-                            } 
-                        </code>
-                    </pre>
+            <div  class="sample-code liniear-gradient-background">
+                <pre>
+                    <code>
+                        .card-header {
+                            position: relative;
+                            margin-top: -20px;
+                        } 
+                    </code>
+                </pre>
             </div>
             
         </div>
