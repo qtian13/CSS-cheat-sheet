@@ -1,15 +1,15 @@
 :root {
   --white: white;
-  --purple: purple;
+  --purple: rgb(180, 54, 180);
   --background-color: black;
   --border-radius: 10px;
 }
 
-/* 
+
 * {
   background-color: var(--background-color);
 }
-*/
+
 
 h1 {
   font-size: 200%;
@@ -18,27 +18,64 @@ h1 {
 }
 
 .top-paragraph {
-  background-color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
   color: var(--white);
   text-align: center;
 }
 
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .box {
-  border: 2px dashed black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px dashed var(--white);
   position: relative;
-  width: 33%;
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 50px;
 }
 
 .box-title {
-  border: 2px solid black;
-  border-radius: 5px;
+  /* font-size: */
+  color: var(--purple);
+  border: 2px solid var(--white);
+  border-radius: var(--border-radius);
   width: 90%;
   position: absolute;
-  top: -10px;
+  top: -40px;
+  padding: 5px;
+}
+
+.direction {
+  color: var(--purple);
 }
 
 .sample-code {
+  color: var(--white);
   background-color: var(--purple);
   border-radius: var(--border-radius);
-  display: flexbox;
+}
+
+code {
+  text-indent: 5px;
+  text-align: left;
+  background-color: var(--purple);
+}
+
+
+.sample-code p {
+  line-height: 20px;
+  padding: 10px;
+  background-color: var(--purple);
+}
+
+.indentation {
+  text-indent: 5px;
 }

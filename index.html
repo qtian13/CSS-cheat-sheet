@@ -15,21 +15,119 @@
         Give it a permanent home and add it to this page! Select any snippet below
          and it'll automatically select all of the code for you to copy.
     </p>
-    <section>
+    <section class="content">
         <div class="box">
-            <div class="box-title">
+            <h2 class="box-title">
                 Flexbox Row
-            </div>
-            <p>
+            </h2>
+            <p class="direction">
                 Use these three properties to create a Flexbox row layout.
             </p>
-            <div class="sample-code">
-                <p>.row { </p> 
-                <p> display: flex;</p>
-                <p> flex-direction: row;</p>
-                <p> flex-wrap: wrap;</p>
-                <p> } </p>
+            <pre class="sample-code">
+                <code>
+                    .row {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                    }
+                </code>
+            </pre>
+        </div>
+
+        <div class="box">
+            <h2 class="box-title">
+                Flexbox Column
+            </h2>
+            <p class="direction">
+                Use this to create a Flexbox column layout.
+            </p>
+            <pre class="sample-code">
+                <code>
+                    .column {
+                        display: flex;
+                        flex-direction: column;
+                    } 
+                </code>
+            </pre>
+        </div>
+        <div class="box">
+            <h2 class="box-title">
+                CSS Grid Layout
+            </h2>
+            <p class="direction">
+                Build a 12-column layout using CSS Grid.
+            </p>
+            <pre class="sample-code">
+                <code>
+                    .grid {
+                        display: grid;
+                        width: 100%;
+                        grid-template-columns: repeat(12, lfr);
+                    } 
+                </code>
+            </pre>
+        </div>
+        <div class="box">
+            <h2 class="box-title">
+                Linear Gradients
+            </h2>
+            <p class="direction">
+                This will create a background linear gradient from top to bottom.
+            </p>
+            <pre class="sample-code">
+                <code>
+                    .liniear-gradient-background { 
+                        background-image: linear-gradient(
+                            rgba(232, 102, 236, 0.3) 0%,
+                            rgba(232, 102, 236, 0.6) 100%
+                        );
+                    }
+                </code>
+            </pre>
+        </div>
+
+        <div class="box">
+            <h2 class="box-title">
+                Box Transition Glow
+            </h2>
+            <p class="direction">
+                Use these three properties to create a Flexbox row layout.
+            </p>
+            <pre class="sample-code">
+
+                <code>
+                    .code-card .card-header {
+                        border-radius: 8px;
+                        transition: all 0.5s ease-in-out;
+                    }
+
+                    .code-card:hover, 
+                    .code-card:hover .card-header {
+                        box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+                    }
+                </code>
+            </pre>
+                
+        </div>
+        <div class="box">
+            <h2 class="box-title">
+                Overlay Card with Title
+            </h2>
+            <p class="direction">
+                Use position properties ad negative margins to raise elements higher than their natural starting point.
+            </p>
+            <div>
+                
+                    <pre class="sample-code">
+                        <code>
+                            .card-header {
+                                position: relative;
+                                margin-top: -20px;
+                            } 
+                        </code>
+                    </pre>
             </div>
+            
         </div>
     </section>
     
