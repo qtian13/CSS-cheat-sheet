@@ -1,0 +1,92 @@
+:root {
+  --white: white;
+  --purple: rgb(180, 54, 180);
+  --background-color: black;
+  --border-radius: 10px;
+}
+
+
+* {
+  background-color: var(--background-color);
+}
+
+
+h1 {
+  font-size: 200%;
+  color: var(--purple);
+  text-align: center;
+}
+
+.top-paragraph {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  color: var(--white);
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px dashed var(--white);
+  position: relative;
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.box-title {
+  /* font-size: */
+  color: var(--purple);
+  border: 2px solid var(--white);
+  border-radius: var(--border-radius);
+  width: 90%;
+  position: absolute;
+  top: -40px;
+  padding: 5px;
+}
+
+.direction {
+  color: var(--purple);
+}
+
+.sample-code {
+  color: var(--white);
+  background-color: var(--purple);
+  border-radius: var(--border-radius);
+}
+
+pre, code{
+  width: 100%;
+}
+
+.liniear-gradient-background { 
+  background-image: linear-gradient(
+      rgba(232, 102, 236, 0.3) 0%,
+      rgba(232, 102, 236, 0.6) 100%
+  );
+}
+
+code {
+  text-indent: 5px;
+  text-align: left;
+  background-color: var(--purple);
+}
+
+
+.sample-code p {
+  line-height: 20px;
+  padding: 10px;
+  background-color: var(--purple);
+}
+
+.indentation {
+  text-indent: 5px;
+}
