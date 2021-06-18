@@ -1,0 +1,44 @@
+:root {
+  --white: white;
+  --purple: purple;
+  --background-color: black;
+  --border-radius: 10px;
+}
+
+/* 
+* {
+  background-color: var(--background-color);
+}
+*/
+
+h1 {
+  font-size: 200%;
+  color: var(--purple);
+  text-align: center;
+}
+
+.top-paragraph {
+  background-color: blue;
+  color: var(--white);
+  text-align: center;
+}
+
+.box {
+  border: 2px dashed black;
+  position: relative;
+  width: 33%;
+}
+
+.box-title {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 90%;
+  position: absolute;
+  top: -10px;
+}
+
+.sample-code {
+  background-color: var(--purple);
+  border-radius: var(--border-radius);
+  display: flexbox;
+}
