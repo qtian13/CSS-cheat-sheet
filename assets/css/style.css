@@ -57,7 +57,9 @@ h1 {
 }
 
 .direction {
+  width: 100%;
   color: var(--purple);
+  margin: 5px;
 }
 
 .sample-code {
@@ -68,21 +70,21 @@ h1 {
   border-radius: var(--border-radius);
   padding: 10px;
   display: flex;
+  margin: 5px;
 }
 
 pre {
+  width: 100%;
   margin-top: auto;
   margin-bottom: auto;
+  white-space: pre-wrap;
 } 
 
-/* .liniear-gradient-background { 
+.liniear-gradient-background { 
   background-image: linear-gradient(
-      rgba(232, 102, 236, 0.3) 0%,
-      rgba(232, 102, 236, 0.6) 100%
+  rgba(40, 11, 41, 0.3) 0%,
+  rgba(174, 151, 175, 0.6) 100%
   );
-} */
-
-code {
-  text-indent: 5px;
-  text-align: left;
 }
+
+
