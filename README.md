@@ -20,7 +20,7 @@ git clone https://github.com/qtian13/CSS-cheat-sheet.git
 1. The snippets in the same row are of equal height
 1. The sample code block automatically stretches to fill the snippet block and the code is vertically centered.
 1. The snippet border and its title border glow when the mouse hover over the snippet block.
-1. The Sample code highlights when the mouse hover over it
+1. The Sample code can be selected when sample block was clicked
 
 ## Page URL
 https://qtian13.github.io/CSS-cheat-sheet/
