@@ -25,9 +25,9 @@ git clone https://github.com/qtian13/CSS-cheat-sheet.git
 https://qtian13.github.io/CSS-cheat-sheet/
 
 ## Page Screen Shot with Different Screen Width
-![large screen](assets/images/largeScreen.png.png)
-![medium screen](assets/images/mediumScreen.png.png)
-![small screen](assets/images/smallScreen.png.png)
+![large screen](assets/images/largeScreen.png)
+![medium screen](assets/images/mediumScreen.png)
+![small screen](assets/images/smallScreen.png)
 
 
 ## Authors
