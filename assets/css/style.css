@@ -8,6 +8,8 @@
 
 body {
   background-color: var(--background-color);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 
@@ -80,11 +82,33 @@ pre {
   white-space: pre-wrap;
 } 
 
+code:hover {
+  background-color: green;
+}
+
 .liniear-gradient-background { 
   background-image: linear-gradient(
   rgba(40, 11, 41, 0.3) 0%,
   rgba(174, 151, 175, 0.6) 100%
   );
+}
+
+h4 {
+  margin-top: 70px;
+  text-align: center;
+  color: var(--purple);
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  .box {
+    width: 47%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    width: 90%;
+  }
 }
 
 
