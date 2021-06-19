@@ -15,9 +15,9 @@ git clone https://github.com/qtian13/CSS-cheat-sheet.git
 1. The Horiseon Page consists of 4 parts :  main header, description of the page, different snippet of CSS syntax, footer
 1. Select any snippet and its code would be copied automatically
 1. The page is screen responsive. 
-* On the screen of width no less than 992px, there are 3 snippets each row
-* On the screen of width less than 992px but no less than 768, there are 2 snippets each row
-* On the screen of width less than 768, there is only 1 snippets each row
+    * On the screen of width no less than 992px, there are 3 snippets each row
+    * On the screen of width less than 992px but no less than 768, there are 2 snippets each row
+    * On the screen of width less than 768, there is only 1 snippets each row
 1. The snippets are evenly spead the width of the screen with equal height of the other sniptes in the same row
 1. The code part auto matically stretches to fill the extra space in the snippet with the code centered vertically.
 
