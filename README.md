@@ -12,22 +12,23 @@ git clone https://github.com/qtian13/CSS-cheat-sheet.git
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ## Description of the CSS Cheat Sheet Page
-1. The Horiseon Page consists of 4 parts :  main header, description of the page, different snippet of CSS syntax, footer
-1. Select any snippet and its code would be copied automatically
-1. The page is screen responsive. 
-    * On the screen of width no less than 992px, there are 3 snippets each row
-    * On the screen of width less than 992px but no less than 768, there are 2 snippets each row
-    * On the screen of width less than 768, there is only 1 snippets each row
-1. The snippets are evenly spead the width of the screen with equal height of the other sniptes in the same row
-1. The code part auto matically stretches to fill the extra space in the snippet with the code centered vertically.
+1. The Horiseon Page consists of 4 parts:  the main header,  the page function description, 6 code cards and the footer
+1. The snippets layout responsively. 
+    * Three snippets each row for desktop screen (screen width no less than 992px)
+    * Two snippets each row for tablet screen (screen width less than 992px while no less than 768)
+    * One snippet each row for mobile screen (scree width less than 768)
+1. The snippets in the same row are of equal height
+1. The sample code block automatically stretches to fill the snippet block and the code is vertically centered.
+1. The snippet border and its title border glow when the mouse hover over the snippet block.
+1. The Sample code highlights when the mouse hover over it
 
 ## Page URL
 https://qtian13.github.io/CSS-cheat-sheet/
 
 ## Page Screen Shot with Different Screen Width
-![large screen](assets/images/largeScreen.png)
-![medium screen](assets/images/mediumScreen.png)
-![small screen](assets/images/smallScreen.png)
+![large screen](assets/images/desktop_screen.png)
+![medium screen](assets/images/tablet_screen.png)
+![small screen](assets/images/mobile_screen.png)
 
 
 ## Authors
